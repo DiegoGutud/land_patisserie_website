@@ -116,7 +116,7 @@ export const Hero = () => {
       <div className="absolute inset-0 z-0">
         <motion.div style={{ y: yImage, scale }} className="w-full h-full">
           <img
-            src="/assets/images/land_shop.png"
+            src="/assets/images/land_landing.png"
             alt="Artisan Pastry"
             className="w-full h-full object-cover opacity-90"
           />

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Josefin+Sans:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "GFS Didot", serif;
+  --font-sans: "Josefin Sans", sans-serif;
+  --color-land-cream: #F9F8F6;
+  --color-land-dark: #1C1C1C;
+  --color-land-matcha: #8A9A5B;
+  --color-land-gold: #D4AF37;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--color-land-cream);
+  color: var(--color-land-dark);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+}

@@ -234,7 +234,7 @@ export const Specialties = () => {
     {
       title: "Matcha Latte",
       desc: "Reconocido por nuestros clientes como el mejor de Madrid. Matcha de la mejor calidad.",
-      img: "/assets/images/matcha.png",
+      img: "/assets/images/land_matcha.png",
       badge: "Best in Madrid"
     },
     {
@@ -486,7 +486,7 @@ export const Space = () => {
             <div className="flex flex-col gap-4">
               <div className="aspect-square overflow-hidden rounded-sm">
                 <img
-                  src="/assets/images/land_space_4.png"
+                  src="/assets/images/land_space_2.png"
                   alt="Café en Länd"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
@@ -674,7 +674,7 @@ export const Info = () => {
         <div className="h-full min-h-[400px] bg-gray-800 relative overflow-hidden">
           {/* Placeholder for Map */}
           <img
-            src="/assets/images/product (13).jpg"
+            src="/assets/images/land_outside.jpg"
             alt="Interior atmosphere"
             className="w-full h-full object-cover opacity-60"
           />

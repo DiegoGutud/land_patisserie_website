@@ -324,7 +324,7 @@ export default function MenuPage() {
                     >
                         <div className="aspect-[4/3] overflow-hidden rounded-sm">
                             <img
-                                src="/assets/images/matcha.png"
+                                src="/assets/images/land_matcha.png"
                                 alt="Matcha Latte"
                                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                             />

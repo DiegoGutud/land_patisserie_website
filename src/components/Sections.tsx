@@ -194,14 +194,14 @@ export const About = () => {
         >
           <div className="aspect-[3/4] overflow-hidden rounded-sm">
             <img
-              src="../../public/assets/images/land_coffe_cup.jpeg"
+              src="/assets/images/land_coffe_cup.jpeg"
               alt="Land coffe cup"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="absolute -bottom-8 -right-8 w-48 h-48 bg-[#F9F8F6] p-4 hidden md:block">
             <img
-              src="../../public/assets/images/land_founder.png"
+              src="/assets/images/land_founder.png"
               alt="Land founder"
               className="w-full h-full object-cover"
             />
@@ -234,28 +234,28 @@ export const Specialties = () => {
     {
       title: "Matcha Latte",
       desc: "Reconocido por nuestros clientes como el mejor de Madrid. Matcha de la mejor calidad.",
-      img: "../../public/assets/images/matcha.png",
+      img: "/assets/images/matcha.png",
       badge: "Best in Madrid"
     },
     {
       title: "Cake Rolls",
       desc: "Esponjosidad aérea con cremas ligeras de sésamo negro, matcha, fresa y más.",
-      img: "../../public/assets/images/land_cake_rolls.png"
+      img: "/assets/images/land_cake_rolls.png"
     },
     {
       title: "Tartas de Temporada",
       desc: "Creaciones efímeras que celebran los ingredientes de cada estación.",
-      img: "../../public/assets/images/land_cake_season.jpg"
+      img: "/assets/images/land_cake_season.jpg"
     },
     {
       title: "Bollería",
       desc: "Nuestros clásicos de siempre, horneados a diario con ingredientes seleccionados.",
-      img: "../../public/assets/images/land_baked_goods.jpg"
+      img: "/assets/images/land_baked_goods.jpg"
     },
     {
       title: "Brunch",
       desc: "Creatividad y sabor en cada bocado, perfecto para empezar el día con energía.",
-      img: "../../public/assets/images/land_brunch.png"
+      img: "/assets/images/land_brunch.png"
     }
   ];
 
@@ -674,7 +674,7 @@ export const Info = () => {
         <div className="h-full min-h-[400px] bg-gray-800 relative overflow-hidden">
           {/* Placeholder for Map */}
           <img
-            src="assets/images/product (13).jpg"
+            src="/assets/images/product (13).jpg"
             alt="Interior atmosphere"
             className="w-full h-full object-cover opacity-60"
           />

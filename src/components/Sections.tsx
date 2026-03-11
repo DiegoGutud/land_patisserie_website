@@ -112,7 +112,7 @@ export const Hero = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.1]);
 
   return (
-    <section ref={containerRef} id="hero" className="relative h-screen flex items-center justify-center overflow-hidden bg-[#F9F8F6]">
+    <section ref={containerRef} id="hero" className="relative h-[100dvh] flex items-center justify-center overflow-hidden bg-[#F9F8F6]">
       <div className="absolute inset-0 z-0">
         <motion.div style={{ y: yImage, scale }} className="w-full h-full">
           <img
@@ -140,7 +140,7 @@ export const Hero = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 2.2, duration: 1, ease: "easeOut" }}
-          className="font-serif text-6xl md:text-8xl lg:text-[12vw] leading-[1.1] mb-4 pt-4"
+          className="font-serif text-6xl md:text-8xl lg:text-[12vw] leading-[1.1] mb-4"
         >
           LÂND
         </motion.h1>
@@ -172,7 +172,7 @@ export const Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 3.5, duration: 1 }}
-        className="absolute bottom-12 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 text-white"
+        className="absolute bottom-6 md:bottom-12 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 text-white"
       >
         <span className="font-sans text-[10px] tracking-[0.2em] uppercase">Descubre</span>
         <ChevronDown className="animate-bounce" size={20} />

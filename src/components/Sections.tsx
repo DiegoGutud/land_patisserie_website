@@ -218,7 +218,7 @@ export const About = () => {
           <h2 className="text-4xl md:text-5xl lg:text-6xl text-[#1C1C1C]">Nuestra Historia</h2>
           <div className="w-16 h-[2px] bg-[#8A9A5B]" />
           <p className="font-sans text-lg leading-relaxed text-gray-600 font-light">
-            LÂND nació en 2022 con una ilusión: crear un lugar acogedor donde cada bocado hiciera feliz a alguien. Formada en <span className="italic font-serif text-[#1C1C1C]">Le Cordon Bleu</span>, nuestra fundadora trae consigo la precisión de la técnica francesa y los sabores con los que creció en Asia. Esa mezcla — entre lo aprendido y lo sentido — es lo que hace que cada tarta, cada cake roll y cada matcha latte tenga algo especial.
+            LÂND nació en 2025 con una ilusión: crear un lugar acogedor donde cada bocado hiciera feliz a alguien. Formada en <span className="italic font-serif text-[#1C1C1C]">Le Cordon Bleu</span>, nuestra fundadora trae consigo la precisión de la técnica francesa y los sabores con los que creció en Asia. Esa mezcla — entre lo aprendido y lo sentido — es lo que hace que cada tarta, cada cake roll y cada matcha latte tenga algo especial.
           </p>
           <p className="font-sans text-lg leading-relaxed text-gray-600 font-light">
             Pero LÂND es mucho más que pastelería. Es un rincón tranquilo en Madrid para compartir una conversación, una sonrisa o un momento de calma en mitad del día. Nosotros pusimos el espacio, el cariño y las recetas — pero sois vosotros quienes le dais vida cada día.
@@ -716,7 +716,7 @@ export const Footer = () => {
           </a>
           {/* Red Note / 小红书 */}
           <a
-            href="https://www.xiaohongshu.com/user/profile/liudanqing1116"
+            href="https://xhslink.com/m/A4QgxWC3NbV"
             target="_blank"
             rel="noreferrer"
             className="text-gray-400 hover:text-white transition-colors"

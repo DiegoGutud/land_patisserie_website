@@ -233,8 +233,8 @@ export const Specialties = () => {
   const items = [
     {
       title: "Matcha Latte",
-      desc: "Reconocido por nuestros clientes como el mejor de Madrid. Matcha de la mejor calidad.",
-      img: "/assets/images/land_matcha.png",
+      desc: "Matcha premium de @TranquiloMatcha. Reconocido por nuestros clientes como el mejor matcha latte de Madrid.",
+      img: "/assets/images/land_matcha.jpg",
       badge: "Best in Madrid"
     },
     {
@@ -700,7 +700,7 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
         <div className="mb-6 md:mb-0 text-center md:text-left">
           <h3 className="font-serif text-2xl tracking-widest mb-2">LÂND</h3>
-          <p className="font-sans text-xs text-gray-500 tracking-wider">© 2026 LÂND Pâtisserie. Todos los derechos reservados.</p>
+          <p className="font-sans text-xs text-gray-500 tracking-wider">© 2026 Lând Pâtisserie. Todos los derechos reservados.</p>
         </div>
 
         <div className="flex items-center space-x-6">

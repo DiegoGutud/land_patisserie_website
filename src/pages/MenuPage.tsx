@@ -156,9 +156,6 @@ function MenuSectionBlock({ section, index }: { section: MenuSection; index: num
             <div className="border-b border-[#1C1C1C]/10 pb-4 mb-6">
                 <div className="flex items-end justify-between">
                     <div>
-                        <span className="font-sans text-[10px] tracking-[0.3em] uppercase text-[#8A9A5B] block mb-1">
-                            {String(index + 1).padStart(2, '0')}
-                        </span>
                         <h3 className="font-serif text-2xl md:text-3xl text-[#1C1C1C]">{section.title}</h3>
                         {section.subtitle && (
                             <p className="font-sans text-xs text-gray-400 tracking-widest uppercase mt-1">{section.subtitle}</p>
@@ -324,7 +321,7 @@ export default function MenuPage() {
                     >
                         <div className="aspect-[4/3] overflow-hidden rounded-sm">
                             <img
-                                src="/assets/images/land_matcha.png"
+                                src="/assets/images/land_matcha.jpg"
                                 alt="Matcha Latte"
                                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                             />
